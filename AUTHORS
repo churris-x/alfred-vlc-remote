@@ -3,6 +3,7 @@
 #
 # <filename> <authors> (first is original author)
 #
+.editorconfig                       fran
 .gitignore                          geberl, fran
 AUTHORS                             fran
 LICENSE                             geberl, fran
