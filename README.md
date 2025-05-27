@@ -2,41 +2,38 @@
 
 ![Basic usage](images/screenshot_basic.png)
 
-## Prerequisites
+## Usage
 
-- Alfred 3
-- Alfred Powerpack
-- VLC
-- Optional: Alfred Remote iPhone app
+Activate the remote via the `vlc` keyword, followed by the action you want to do:
+
+- `play` / `pause`: toggles between playback and pause
+- `stop`: exit out of playback and show the playlist
+- `next`: next song or chapter
+- `prev`: previous song or chapter
+- `fullscreen`: toggles fullscreen
+- `downloads`: loads all content of your user's Downloads folder into VLC's playlist
+- `volup`: increases volume by one increment (of 32)
+- `volup`: decreases volume by one increment (of 32)
+- `volmax`: maxes out VLC's volume (use with care)
+- `mute`: toggles mute
+- `delayup`: increases audio delay by 50ms
+- `delaydown`: decreases audio delay by 50ms
+- `subs`: toggles through the available subtitles
+- `quit`: quits VLC
 
 ## Installation
 
+- Prerequisites
+    - Alfred 3
+    - Alfred Powerpack
+    - VLC
+    - Optional: Alfred Remote iPhone app
 - Download `vlc_remote.alfredworkflow`
 - Import it into your collection of Alfred workflows by double clicking it
 
-## Usage
-
-- Open Alfred
-- Write the keyword `vlcr` followed by
-    - `play`  / `pause`: toggles between playback and pause
-    - `stop`: exits out of playback and show the playlist
-    - `next`: next chapter or file
-    - `prev`: previous chapter or file
-    - `fullscreen`: toggles fullscreen
-    - `downloads`: loads all content of your user's Downloads folder into VLC's playlist
-    - `volup`: increases volume by one increment (of 32)
-    - `volup`: decreases volume by one increment (of 32)
-    - `volmax`: maxes out VLC's volume (use with care)
-    - `mute`: toggles mute
-    - `delayup`: increases audio delay by 50ms
-    - `delaydown`: decreases audio delay by 50ms
-    - `subs`: toggles through the available subtitles
-    - `quit`: quits VLC
-
-
 ## License & Acknowledgements
-This is an update version of the orignal
-[vlc remote workflow](https://github.com/geberl/alfred-vlc-remote) by [Günther Eberl](https://github.com/geberl).
+This is an update version of the original
+[vlc remote workflow](https://github.com/geberl/alfred-vlc-remote) by [Günther Eberl](https://github.com/geberl).  
 All code is under the GPLv3 License.
 
 Many thanks to:
