@@ -1,0 +1,13 @@
+{
+  "alfredworkflow" : {
+    "category" : "Productivity",
+    "readme" : "# Alfred VLC Remote\n\n## Usage\n\nActivate the remote via the `vlc` keyword, followed by the action you want to do:\n\n- `play` \/ `pause`: toggles between playback and pause\n- `stop`: exit out of playback and show the playlist\n- `next`: next song or chapter\n- `prev`: previous song or chapter\n- `fullscreen`: toggles fullscreen\n- `downloads`: loads all content of your user's Downloads folder into VLC's playlist\n- `volup`: increases volume by one increment (of 32)\n- `volup`: decreases volume by one increment (of 32)\n- `volmax`: maxes out VLC's volume (use with care)\n- `mute`: toggles mute\n- `delayup`: increases audio delay by 50ms\n- `delaydown`: decreases audio delay by 50ms\n- `subs`: toggles through the available subtitles\n- `quit`: quits VLC",
+    "createdby" : "Fran",
+    "downloadurl" : "",
+    "version" : "1.1.1",
+    "bundleid" : "com.alfred.fran-vlc-remote",
+    "description" : "vlc play | pause | stop | next | prev | fullscreen",
+    "name" : "VLC Remote",
+    "webaddress" : "https:\/\/github.com\/churris-x\/alfred-vlc-remote"
+  }
+}
