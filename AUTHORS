@@ -1,0 +1,49 @@
+#
+# Master author manifest for alfred-vlc-remote
+#
+# <filename> <authors> (first is original author)
+#
+.gitignore                          geberl, fran
+AUTHORS                             fran
+LICENSE                             geberl, fran
+README.md                           geberl, fran
+vlc_remote.alfredworkflow           geberl
+icons/audio_delay_down.png          geberl
+icons/audio_delay_down.psd          geberl
+icons/audio_delay_up.png            geberl
+icons/audio_delay_up.psd            geberl
+icons/download_folder.png           geberl
+icons/fullscreen.png                geberl
+icons/fullscreen.psd                geberl
+icons/mute.png                      geberl
+icons/mute.psd                      geberl
+icons/next.png                      geberl
+icons/next.psd                      geberl
+icons/pause.png                     geberl
+icons/pause.psd                     geberl
+icons/play.png                      geberl
+icons/play.psd                      geberl
+icons/previous.png                  geberl
+icons/previous.psd                  geberl
+icons/quit.png                      geberl
+icons/quit.psd                      geberl
+icons/stop.png                      geberl
+icons/stop.psd                      geberl
+icons/subs.png                      geberl
+icons/subs.psd                      geberl
+icons/vlc.png                       geberl
+icons/vlc.psd                       geberl
+icons/vlcremote.png                 geberl
+icons/vlcremote.psd                 geberl
+icons/volume_down.png               geberl
+icons/volume_down.psd               geberl
+icons/volume_max.png                geberl
+icons/volume_max.psd                geberl
+icons/volume_up.png                 geberl
+icons/volume_up.psd                 geberl
+images/screenshot_autocomplete.png  geberl
+images/screenshot_basic.png         geberl
+images/screenshot_remote.png        geberl
+images/screenshot_workflow.png      geberl
+images/scriptable_functions_1.png   geberl
+images/scriptable_functions_2.png   geberl
