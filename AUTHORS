@@ -5,6 +5,7 @@
 #
 .editorconfig                       fran
 .gitignore                          geberl, fran
+.github/workflows/release.yml       fran
 AUTHORS                             fran
 LICENSE                             geberl, fran
 README.md                           geberl, fran

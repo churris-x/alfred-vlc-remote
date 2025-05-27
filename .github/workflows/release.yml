@@ -1,0 +1,35 @@
+name: release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+    workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  create_release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Compare Version
+        run: |
+          CURRENT=v$(jq -r '.alfredworkflow.version' metadata.json)
+          LATEST=$(git tag | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+' | tail -1)
+          if [[ "$CURRENT" < "$LATEST" ]]; then
+            echo "ERROR: current manifest version $CURRENT is lower than latest version $LATEST"
+            exit 1
+          fi
+          echo "Current version $CURRENT >= $LATEST (latest), continuing to build"
+      - name: Githu release
+        run: |
+          VERSION=$(jq -r '.alfredworkflow.version' metadata.json)
+          NOTES=$(git log -1 --format='## Changes:%n%b')
+          gh release create "v$VERSION" --notes "$NOTES" ./vlc-remote.alfredworkflow
