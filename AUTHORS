@@ -8,7 +8,9 @@
 AUTHORS                             fran
 LICENSE                             geberl, fran
 README.md                           geberl, fran
-vlc_remote.alfredworkflow           geberl
+metadata.json                       fran
+changelog.md                        fran
+vlc_remote.alfredworkflow           geberl, fran
 icons/audio_delay_down.png          geberl
 icons/audio_delay_down.psd          geberl
 icons/audio_delay_up.png            geberl
