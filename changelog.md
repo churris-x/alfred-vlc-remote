@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.1
+- Add github release workflow
+
 ## 2.0.0
 - Major refactor
 - Most commands don't move focus to VLC app, only `stop`, `delay*` and `subs`
