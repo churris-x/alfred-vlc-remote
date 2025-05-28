@@ -32,11 +32,12 @@ Activate the remote via the `vlc` keyword, followed by the action you want to do
 - `quit`: quits VLC
 
 ## Todo
-- [ ] Test all workflows
+- [x] Test all workflows
 - [ ] Remove `downloads` command
 - [ ] Add a generalized `open` folder command
     - [ ] Alfred api to search folders / songs?
 - [ ] When searching normally in alfred, add action to open in vlc?
+- [ ] Interaction with VLC Media library?
 
 ## Installation
 
@@ -45,7 +46,7 @@ Activate the remote via the `vlc` keyword, followed by the action you want to do
     - Alfred Powerpack
     - VLC
     - Optional: Alfred Remote iPhone app
-- Download `vlc_remote.alfredworkflow`
+- Download `vlc-remote.alfredworkflow`
 - Import it into your collection of Alfred workflows by double clicking it
 
 ## License & Acknowledgements
