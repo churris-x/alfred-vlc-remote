@@ -2,6 +2,16 @@
 
 ![Basic usage](images/screenshot_basic.png)
 
+## Contents
+<!-- MarkdownTOC -->
+
+- [Usage](#usage)
+- [Todo](#todo)
+- [Installation](#installation)
+- [License & Acknowledgements](#license--acknowledgements)
+
+<!-- /MarkdownTOC -->
+
 ## Usage
 
 Activate the remote via the `vlc` keyword, followed by the action you want to do:
@@ -20,6 +30,13 @@ Activate the remote via the `vlc` keyword, followed by the action you want to do
 - `delaydown`: decreases audio delay by 50ms
 - `subs`: toggles through the available subtitles
 - `quit`: quits VLC
+
+## Todo
+- [ ] Test all workflows
+- [ ] Remove `downloads` command
+- [ ] Add a generalized `open` folder command
+    - [ ] Alfred api to search folders / songs?
+- [ ] When searching normally in alfred, add action to open in vlc?
 
 ## Installation
 
