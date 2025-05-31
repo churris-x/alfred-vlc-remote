@@ -38,6 +38,8 @@ Activate the remote via the `vlc` keyword, followed by the action you want to do
     - [ ] Alfred api to search folders / songs?
 - [ ] When searching normally in alfred, add action to open in vlc?
 - [ ] Interaction with VLC Media library?
+- [ ] Make workflow stay open, esc closes alfred
+- [ ] Should `stop` go to vlc?
 
 ## Installation
 
