@@ -17,13 +17,12 @@
 Activate the remote via the `vlc` keyword, followed by the action you want to do:
 
 - `play` / `pause`: toggles between playback and pause
-- `stop`: exit out of playback and show the playlist
-- `next`: next song or chapter
-- `prev`: previous song or chapter
+- `stop`: exit out of playback
+- `next` / `prev`: next / previous song or chapter
 - `fullscreen`: toggles fullscreen
 - `downloads`: loads all content of your user's Downloads folder into VLC's playlist
 - `volup`: increases volume by one increment (of 32)
-- `volup`: decreases volume by one increment (of 32)
+- `voldown`: decreases volume by one increment (of 32)
 - `volmax`: maxes out VLC's volume (use with care)
 - `mute`: toggles mute
 - `delayup`: increases audio delay by 50ms
@@ -38,8 +37,8 @@ Activate the remote via the `vlc` keyword, followed by the action you want to do
     - [ ] Alfred api to search folders / songs?
 - [ ] When searching normally in alfred, add action to open in vlc?
 - [ ] Interaction with VLC Media library?
-- [ ] Make workflow stay open, esc closes alfred
-- [ ] Should `stop` go to vlc?
+- [ ] Make workflow stay open when `next` or `prev` is called, esc to close alfred
+- [x] Prevent `stop` from going to vlc
 
 ## Installation
 
