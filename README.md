@@ -51,7 +51,7 @@ Activate the remote via the `vlc` keyword, followed by the action you want to do
 - Import it into your collection of Alfred workflows by double clicking it
 
 ## License & Acknowledgements
-This is an update version of the original
+This is an updated version of the original
 [vlc remote workflow](https://github.com/geberl/alfred-vlc-remote) by [Günther Eberl](https://github.com/geberl).  
 All code is under the GPLv3 License.
 
